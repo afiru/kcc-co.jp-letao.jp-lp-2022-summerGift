@@ -12,7 +12,7 @@
             <div class="display_flex_stretch display_row exlusiveToShopFx">
                 <figure class="picExlusiveToShopTop">
                     <!--Pc:../img/picExlusiveToShopTopPc.webp-->
-                    <img loading="lazy" src="img/picUpCnt01Sp.webp" alt="メロン ショコラブラン フレ 864円(税込) みずみずしいメロンの甘みが口いっぱいに広がるレアショコラ。芳醇なメロンの薫りがたまらない、柔らかな食感のチョコレート。" width="428.4678" height="88.5557" />
+                    <img loading="lazy" src="img/picExlusiveToShopTopSp.webp" alt="メロン ショコラブラン フレ 864円(税込) みずみずしいメロンの甘みが口いっぱいに広がるレアショコラ。芳醇なメロンの薫りがたまらない、柔らかな食感のチョコレート。" width="428.4678" height="88.5557" />
                 </figure>
                 
                 <section class="secToShopWap">
