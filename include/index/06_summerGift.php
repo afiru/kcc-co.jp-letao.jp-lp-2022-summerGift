@@ -25,9 +25,9 @@
         <div class="display_flex_stretch display_row summerGiftCntFx summerGiftCntFx01">
             <div class="po_re picSummerGiftCntFx01Box">
                 <!--Pc:../img/picSummerGiftCntFx01Pc.webp-->
-                <img class="sp_only" loading="lazy" src="img/picSummerGiftSp.webp" alt="" width="750" height="485.93" />
+                <img class="sp_only" loading="lazy" src="img/picSummerGift01Sp.webp" alt="" width="750" height="485.93" />
                 <figure class="pc_only picSummerGiftCntFx01">                    
-                    <img class="sp_only" loading="lazy" src="img/picSummerGiftCntFx01Pc.svg" alt="オンラインショップ限定" width="750" height="485.93" />
+                    <img class="" loading="lazy" src="img/picSummerGiftCntFx01Pc.svg" alt="オンラインショップ限定" width="750" height="485.93" />
                 </figure>
             </div>
             <section class="secSummerGiftCntFx01">
@@ -47,10 +47,8 @@
         <div class="display_flex_stretch display_row summerGiftCntFx summerGiftCntFx02">
             <div class="po_re picSummerGiftCntFx02Box">
                 <!--Pc:../img/picSummerGiftCntFx02Pc.webp-->
-                <img class="sp_only" loading="lazy" src="img/picSummerGiftSp.webp" alt="" width="750" height="485.93" />
-                <figure class="pc_only picSummerGiftCntFx02">                    
-                    <img class="sp_only" loading="lazy" src="img/picSummerGiftCntFx02Pc.svg" alt="オンラインショップ限定" width="750" height="485.93" />
-                </figure>
+                <img class="sp_only" loading="lazy" src="img/picSummerGift02Sp.webp" alt="" width="750" height="485.93" />
+
             </div>
             <section class="secSummerGiftCntFx02">
                 <figure class="txtSecSummerGiftCntFx02">
@@ -68,9 +66,9 @@
         
         <figure class="otherProducts">
             <picture>
-                <source media="(min-width: 768px)" srcset="img/otherProductsPc.svg"><!--PC画像-->
-                <source media="(max-width: 768px)" srcset="img/otherProductsSp.svg"><!--SP画像-->
-                <img loading="lazy" src="img/otherProductsPc.svg" alt="" width="257.884" height="197.797" />
+                <source media="(min-width: 768px)" srcset="img/otherProductsPc.webp"><!--PC画像-->
+                <source media="(max-width: 768px)" srcset="img/otherProductsSp.webp"><!--SP画像-->
+                <img loading="lazy" src="img/otherProductsPc.webp" alt="" width="257.884" height="197.797" />
             </picture>
         </figure>
     </div>

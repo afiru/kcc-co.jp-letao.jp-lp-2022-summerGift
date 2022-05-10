@@ -1,7 +1,6 @@
 <div class="bgStatSweets statSweets">
     <!--
     Pc:../img/bgStatSweetsPc.webp
-    Sp:../img/bgStatSweetsSp.webp
     -->
     <div class="wapper statSweetsWap">
         <figure class="txtStatSweets">
