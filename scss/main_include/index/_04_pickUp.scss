@@ -1,1 +1,160 @@
-@charset "utf-8";
+.bgTopPickUp {
+    background: url(../img/bgTopPickUpPc.webp) no-repeat top center;
+    background-size: auto 100%;
+    height: 93px;
+    @include media($sp) {
+        background: url(../img/bgTopPickUpPc.webp) no-repeat top center;
+        background-size: auto 100%;
+        height: 13.2vw;
+    }
+}
+.bgPickUp {
+    background: url(../img/bgPickUpPc.webp) repeat top center;
+    background-size: auto;
+    @include media($sp) {
+        background: url(../img/bgPickUpSp.webp) repeat top center;
+        background-size:auto 377.7036048064085vw;
+    }
+}
+.pickUp {
+    overflow: hidden;
+    @include paddingPercent(1920 , 70 , 0 , 230 , 0 );
+    @include media($sp) {
+        @include paddingPercent(750 , 100 , 0 , 80 , 0 );
+    }
+}
+.h2PickUp {
+    @include ontener_width(1000 , 344.7861 );
+    margin: auto;
+    @include media($sp) {
+        @include ontener_width(750 , 344.7861 );
+    }
+}
+
+//
+.picUpCntFx01 {
+    @include marginPercent(1000 , 22.9063 , auto , 0 , auto );
+    @include paddingPercent(1000 , 0 , 0 , 122 , 0 );
+    @include media($tab) {
+        padding: 0% 0% 4.5vw 0%;
+    }
+    @include media($sp) {
+        @include marginPercent(750 , 15 , auto , 0 , auto );
+        @include paddingPercent(750 , 0 , 0 , 0 , 0 ); 
+    }
+}
+.picUpCnt01 {
+    position: relative;
+    @include ontener_width(1000 , 541.5779);
+    @include media($sp) {
+        width: 100%;
+    }
+    &:before {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 300%;
+        height: 574px;
+        content: '';
+        display: block;
+        background: url(../img/picUpCnt01Pc.webp) no-repeat right top;
+        background-size: auto 100%;
+        @include media($tab) {
+            height: 47.895833vw;
+        }
+        @include media($sp) {
+            display: none;
+        }
+    }
+}
+.secUpCntFx01 {
+    @include ontener_width(1000 , 441.0362);
+    @include marginPercent(1000 , 60 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include ontener_width(750 , 664.7015);
+        @include marginPercent(750 , 27 , auto , 0 , auto );
+    }
+}
+.txtSecUpCntFx01 {
+    @include ontener_width(441.0362 , 433.1582);
+    @include media($sp) {
+        @include ontener_width(664.701 , 646.9111);
+    }
+}
+.btmSecUpCntFx01{
+    display: block;
+    @include marginPercent(441.0362 , 85 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include marginPercent(664.701 , 55 , 0 , 0 , 0 );
+    }
+}
+//
+.picUpCntFx02 {
+    @include marginPercent(1000 , 40 , auto , 0 , auto );
+    @include paddingPercent(1000 , 0 , 0 , 62 , 0 );
+    @include media($sp) {
+        @include marginPercent(750 , 77.5 , auto , 0 , auto );
+        @include paddingPercent(750 , 0 , 0 , 0 , 0 );
+    }
+}
+.picUpCnt02 {
+    position: relative;
+    @include ontener_width(1000 , 472.9513 );
+    @include media($sp) {
+        width: 100%;
+    }
+    &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 300%;
+        height: 658px;
+        content: '';
+        display: block;
+        background: url(../img/picUpCnt02Pc.webp) no-repeat left top;
+        background-size: auto 100%;
+        @include media($tab) {
+            height: 64.270833vw;
+        }
+        @include media($sp) {
+            display: none;
+        }
+    }
+}
+.secUpCntFx02 {
+    @include ontener_width(1000 ,439.5534);
+    @include marginPercent(1000 , 60 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include ontener_width(750 , 750);
+        @include marginPercent(750 , 27 , auto , 0 , auto );
+    }
+}
+.txtSecUpCntFx02 {
+    @include ontener_width(441.0362 , 433.1582);
+    @include marginPercent(441.0362 , 64 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include ontener_width(750 , 688.9602);
+        margin: 0;
+    }
+}
+.btmSecUpCntFx02 {
+    display: block;
+    @include marginPercent(441.0362 , 48 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include ontener_width(750 , 664.7015);
+        @include marginPercent(750 , 55 , auto , 0 , auto );
+    }
+}
+
+
+.bgBtmPickUp {
+    background: url(../img/bgBtmPickUpPc.webp) no-repeat top center;
+    background-size: auto 100%;
+    height: 89px;
+    margin: -1px 0 0 0;
+    @include media($sp) {
+        background: url(../img/bgBtmPickUpSp.webp) no-repeat top center;
+        background-size: auto 100%;
+        height: 13.333333333333334vw;
+    }
+}
