@@ -58,7 +58,7 @@
     }
 }
 .picSummerGiftCntFx01Box{
-    @include ontener_width(1000 , 440); 
+    @include ontener_width(1000 , 500); 
     position: relative;
     @include media($tab){
          @include ontener_width(1000 , 515); 
@@ -71,7 +71,8 @@
         right: 0;
         top: 0;
         width: 300%;
-        height: 351.5739px;
+        //height: 351.5739px;
+        height: 408px;
         content: '';
         display: block;
         background: url(../img/picSummerGiftCntFx01Pc01.webp) no-repeat right top;
@@ -88,7 +89,7 @@
     position: absolute;
     bottom: 0;
     left:0;
-    @include ontener_width(558 , 193.4022);
+    @include ontener_width(500 , 193.4022);
 }
 .secSummerGiftCntFx01{
     @include marginPercent(442 , 70 , 0 , 0 , 0);
