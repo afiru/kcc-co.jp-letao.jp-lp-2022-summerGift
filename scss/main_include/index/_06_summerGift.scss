@@ -37,11 +37,18 @@
     
 }
 .picSummerGiftCntFx01Box{
+    @include ontener_width(1000 , 558);
     background: url(../img/picSummerGiftCntFx01Pc01.webp) no-repeat;
     background-size: 100% auto;
     position: relative;
     height: 407.1735px;
 }
 .picSummerGiftCntFx01{
-    
+    position: absolute;
+    bottom: 0;
+    left:0;
+    @include ontener_width(558 , 193.4022);
+}
+.secSummerGiftCntFx01{
+    @include ontener_width(1000 , 441.0362);
 }
