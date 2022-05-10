@@ -1,1 +1,19 @@
-@charset "utf-8";
+.footer{
+    height:50px;
+    background: #d0d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include media($sp){
+        height: 13.333333333333334vw;
+    }
+}
+.address{
+    width: 110.6943px;
+    margin: 0 auto;
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

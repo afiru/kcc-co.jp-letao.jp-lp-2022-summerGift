@@ -1,1 +1,47 @@
-@charset "utf-8";
+.summerGift{
+    @include marginPercent(1920 , 30 , auto , 0 , auto);
+    @include paddingPercent(1920 , 40 , 0 , 20 , 0);
+    position: relative;
+    height: 195px;
+}
+.borderSummerGift{
+    height: 30px;
+    background: #e6ebf5;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 75%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.summerGiftWap{
+   position: relative;
+}
+.summerGiftFx{
+     height: 95px;
+}
+.txtSummerGift{
+    @include ontener_width(1000 , 620.4033);
+}
+.picSummerGift{
+    @include ontener_width(1000 , 257.884);
+    position: absolute;
+    top:-35%;
+    right: 5%;
+}
+.summerGiftlxc{
+    @include marginPercent(1920 , 45 , auto , 0 , auto);
+}
+.summerGiftCntFx {
+    
+}
+.picSummerGiftCntFx01Box{
+    background: url(../img/picSummerGiftCntFx01Pc01.webp) no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    height: 407.1735px;
+}
+.picSummerGiftCntFx01{
+    
+}

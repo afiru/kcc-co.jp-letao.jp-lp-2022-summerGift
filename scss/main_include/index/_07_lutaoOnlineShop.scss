@@ -1,1 +1,19 @@
-@charset "utf-8";
+.lutaoOnlineShop{
+    background: url(../img/bglutaoOnlineShopPc.webp)no-repeat center top;
+    background-size: auto 100%;
+}
+.lutaoOnlineShopWap{
+    @include marginPercent(1000 , 75 , auto , 0 , auto);
+    @include media($sp){
+        @include marginPercent(750 , 80 , auto , 0 , auto);
+    }
+}
+.btmLutaoOnlineShop{
+    display: block;
+}
+.btmAlertWap{
+    @include paddingPercent(1000 , 34 , 0 , 34 , 0);
+    @include media($sp){
+        @include paddingPercent(750 , 35 , 0 , 35 , 0);
+    }
+}
