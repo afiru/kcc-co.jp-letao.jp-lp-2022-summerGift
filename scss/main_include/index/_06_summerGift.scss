@@ -3,6 +3,11 @@
     @include paddingPercent(1920 , 40 , 0 , 20 , 0);
     position: relative;
     height: 195px;
+    @include media($sp){
+        @include marginPercent(750 , 80 , auto , 0 , auto);
+        @include paddingPercent(750 , 45 , 0 , 30 , 0);
+        height: 30.820506666666663vw;
+    }
 }
 .borderSummerGift{
     height: 30px;
@@ -14,6 +19,10 @@
     left: 0;
     right: 0;
     margin: 0 auto;
+    @include media($sp){
+        height: 3.4122399999999997vw;
+        top:100%;
+    }
 }
 .summerGiftWap{
    position: relative;
@@ -23,25 +32,55 @@
 }
 .txtSummerGift{
     @include ontener_width(1000 , 620.4033);
+    @include media($sp){
+        @include ontener_width(750 , 322.8018);
+        @include marginPercent(750 , 0 , auto , 0 , 55);
+    }
 }
 .picSummerGift{
     @include ontener_width(1000 , 257.884);
     position: absolute;
     top:-35%;
     right: 5%;
+    @include media($sp){
+        @include ontener_width(750 , 280.5048 );
+    }
 }
 .summerGiftlxc{
-    @include marginPercent(1920 , 45 , auto , 0 , auto);
+    @include marginPercent(1920 , 30 , auto , 0 , auto);
+    @include media($sp){
+        @include marginPercent(750 , 85 , auto , 0 , auto);
+    }
 }
 .summerGiftCntFx {
-    
+    @include media($sp){
+        flex-flow: row wrap;
+    }
 }
 .picSummerGiftCntFx01Box{
-    @include ontener_width(1000 , 558);
-    background: url(../img/picSummerGiftCntFx01Pc01.webp) no-repeat;
-    background-size: 100% auto;
+    //@include ontener_width(1000 , 440); 
+    @include ontener_width(1000 , 515); 
     position: relative;
-    height: 407.1735px;
+    @include media($sp){
+        width: 100%;
+    }
+    &:before{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 300%;
+        height: 351.5739px;
+        content: '';
+        display: block;
+        background: url(../img/picSummerGiftCntFx01Pc01.webp) no-repeat right top;
+        background-size: auto 100%;
+        @include media($tab){
+            height: 35.15739vw;
+        }
+        @include media($sp){
+            display: none;
+        }
+    }
 }
 .picSummerGiftCntFx01{
     position: absolute;
@@ -50,5 +89,86 @@
     @include ontener_width(558 , 193.4022);
 }
 .secSummerGiftCntFx01{
-    @include ontener_width(1000 , 441.0362);
+    @include marginPercent(442 , 70 , 0 , 0 , 0);
+    @include ontener_width(1000 , 442);
+    @include media($tab){
+        margin: auto 0 0 0;
+    }
+    @include media($sp){
+        @include ontener_width(750 , 669);
+        @include marginPercent(750 , 25 , auto , 0 , auto);
+    }
+}
+.txtSecSummerGiftCntFx01{
+    
+}
+.btmSummerGiftCntFx01{
+    @include marginPercent(442 , 15 , 0 , 0 , 0);
+    display: block;
+    @include media($sp){
+        @include marginPercent(750 , 20 , auto , 0 , auto);
+    }
+}
+.summerGiftCntFx02{
+    @include marginPercent(1000 , 50 , auto , 0 , auto);
+    @include paddingPercent(1000 , 24 , 0 , 0 , 0);
+    border-top:1px solid #4f2329;
+    @include media($sp){
+        @include marginPercent(750 , 80 , auto , 0 , auto);
+        border: none;
+        padding: 0;
+        flex-flow: row wrap;
+    }
+}
+.picSummerGiftCntFx02Box{
+    @include ontener_width(1000 , 493); 
+    position: relative;
+     @include media($sp){
+        width: 100%;
+    }
+    &:before{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 300%;
+        height: 373.6902px;
+        content: '';
+        display: block;
+        background: url(../img/picSummerGiftCntFx02Pc.webp) no-repeat right top;
+        background-size: auto 100%;
+        @include media($tab){
+            height: 37.369020000000006vw;
+        }
+        @include media($sp){
+            display: none;
+        }
+    }
+}
+.secSummerGiftCntFx02{
+    @include marginPercent(1000 , 54 , 0 , 0 , 0);
+    @include ontener_width(1000 , 440);
+    @include media($tab){
+        margin: auto 0 0 0;
+    }
+    @include media($sp){
+        @include ontener_width(750 , 669);
+        @include marginPercent(750 , 25 , auto , 0 , auto);
+    }
+}
+.btmSummerGiftCntFx02{
+    @include marginPercent(442 , 15 , 0 , 0 , 0);
+    display: block;
+    @include media($sp){
+        @include marginPercent(750 , 20 , auto , 0 , auto);
+    }
+}
+.otherProducts{
+    @include marginPercent(1000 , 35 , auto , 0 , auto);
+    @include media($tab){
+        margin: 10% auto 0 auto;
+    }
+    @include media($sp){
+        @include marginPercent(750 , 80 , auto , 0 , auto);
+        @include ontener_width(750 , 495.6066);
+    }
 }
