@@ -58,9 +58,11 @@
     }
 }
 .picSummerGiftCntFx01Box{
-    //@include ontener_width(1000 , 440); 
-    @include ontener_width(1000 , 515); 
+    @include ontener_width(1000 , 440); 
     position: relative;
+    @include media($tab){
+         @include ontener_width(1000 , 515); 
+    }
     @include media($sp){
         width: 100%;
     }
