@@ -1,1 +1,32 @@
-@charset "utf-8";
+.fv {
+    @include paddingPercent(1920 , 30 , 0 , 35 , 0 );
+    @include media($sp) {
+        @include paddingPercent(750 , 25 , 0 , 30 , 0 );
+    }
+}
+.bg_fv {
+    background: url(../img/bgFvPc.webp) no-repeat top center;
+    background-size: auto 100%;
+    @include media($sp) {
+        background: url(../img/bgFvSp.webp) no-repeat top center;
+        background-size: 100% 100%;
+    }
+}
+.fvWap {
+    
+}
+.picFv {
+    @include ontener_width(1000 , 532.7307 );
+    margin: auto;
+    @include media($sp) {
+        @include ontener_width(750 , 595.4558 );
+    }
+}
+.picScroll {
+    @include marginPercent(1000 , 35 , auto , 0 , auto );
+    @include ontener_width(1000 , 57.2979);
+    @include media($sp) {
+        @include marginPercent(750 , 35 , auto , 0 , auto );
+        @include ontener_width(750 , 64.0459 );
+    }
+}
