@@ -1,1 +1,18 @@
-@charset "utf-8";
+.header {
+    @include paddingPercent(1920 ,20, 0 , 15 , 0 );
+    background: #FFF;
+    @include media($sp) {
+        height: 21.203546666666668vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.logoHeader {
+    @include ontener_width(1000 , 122.7568 );
+    margin: auto;
+    @include media($sp) {
+        @include ontener_width(750 , 122.7568);
+    }
+}
