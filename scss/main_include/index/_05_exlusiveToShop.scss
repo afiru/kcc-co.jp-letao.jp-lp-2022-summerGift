@@ -1,1 +1,75 @@
-@charset "utf-8";
+.exlusiveToShop {
+    overflow: hidden;
+    @include marginPercent(1920 , 5 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include marginPercent(750  , 57 , 0 , 0 , 0 );
+    }
+}
+.bgExlusiveToShop {
+    background: url(../img/bgExlusiveToShopPc.webp) no-repeat top center;
+    background-size: auto 1872px;
+}
+.exlusiveToShopWap {
+    @include marginPercent(1920 , 65 , auto , 0 , auto );
+    @include media($sp) {
+        @include marginPercent(750  , 0 , auto , 0 , auto );
+    }
+}
+.secExlusiveToShop {
+    
+}
+.h2SecExlusiveToShop {
+    @include ontener_width(1000 , 428.4678);
+    margin: auto;
+    @include media($sp) {
+        @include ontener_width(750 , 428.4688);
+    }
+}
+.exlusiveToShopFx {
+    @include marginPercent(1000 , 55 , 0 , 0 , 0 );
+    @include paddingPercent(1000 , 0 , 0 , 32 , 0 );
+    @include media($tab) {
+        padding: 0% 0% 4.5vw 0%;
+    }
+    @include media($sp) {
+        padding: 0;
+        @include marginPercent(750 , 82 , 0 , 0 , 0 );
+    }
+}
+.picExlusiveToShopTop {
+    @include ontener_width(1000 , 603 );
+    position: relative;
+    @include media($sp) {
+        width: 100%;
+    }
+    &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;top: 0;
+        background: url(../img/picExlusiveToShopTopPc.webp) no-repeat top right;
+        background-size: auto 100%;
+        height: 475px;
+        width: 300%;
+        @include media($tab){
+            height: 46.739583vw;
+        }
+        @include media($sp) {
+            display: none;
+        }
+    }
+}
+.secToShopWap {
+    @include marginPercent(1000 , 12 , 0 , 0 , 0 );
+    @include ontener_width(1000 , 372 );
+    @include media($sp) {
+        @include ontener_width(750 , 670.0002 );
+        @include marginPercent(750 , 71 , auto , 0 , auto );
+    }
+}
+.picExlusiveToShopFx {
+    @include marginPercent(1000 , 40 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include marginPercent(750 , 35 , 0 , 0 , 0 );
+    }
+}
