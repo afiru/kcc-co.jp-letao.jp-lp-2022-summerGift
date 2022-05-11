@@ -6,9 +6,7 @@
 @import 'sass_base/icon_arrow';
 @import 'sass_base/coding_guideline';
 
-body{
-    width: calc(100vw - (100vw - 100%));
-}
+
 .wapper {
     @include wapper_setting();    
 }
