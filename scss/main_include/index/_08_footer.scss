@@ -11,6 +11,9 @@
 .address{
     width: 110.6943px;
     margin: 0 auto;
+    @include media($sp){
+        width: 14.75924vw;
+    }
     img{
         display: block;
         width: 100%;

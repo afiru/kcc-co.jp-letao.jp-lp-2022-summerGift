@@ -1,7 +1,7 @@
 .fv {
-    @include paddingPercent(1920 , 30 , 0 , 35 , 0 );
+    @include paddingPercent(1920 , 30 , 0 , 30 , 0 );
     @include media($sp) {
-        @include paddingPercent(750 , 25 , 0 , 30 , 0 );
+        padding: 4.33% 0% 4% 0%;
     }
 }
 .bg_fv {
@@ -26,7 +26,7 @@
     @include marginPercent(1000 , 35 , auto , 0 , auto );
     @include ontener_width(1000 , 57.2979);
     @include media($sp) {
-        @include marginPercent(750 , 35 , auto , 0 , auto );
+        margin: 6.66% auto 0 auto;
         @include ontener_width(750 , 64.0459 );
     }
 }

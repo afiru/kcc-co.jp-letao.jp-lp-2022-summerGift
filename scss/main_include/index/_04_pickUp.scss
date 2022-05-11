@@ -13,14 +13,15 @@
     background-size: auto;
     @include media($sp) {
         background: url(../img/bgPickUpSp.webp) repeat top center;
-        background-size:auto 377.7036048064085vw;
+        //background-size:auto 377.7036048064085vw;
+        background-size:auto 358.7036048064085vw;
     }
 }
 .pickUp {
     overflow: hidden;
-    @include paddingPercent(1920 , 70 , 0 , 230 , 0 );
+    @include paddingPercent(1920 , 70 , 0 , 165 , 0 );
     @include media($sp) {
-        @include paddingPercent(750 , 100 , 0 , 80 , 0 );
+        padding: 13.33% 0% 10.4% 0%;
     }
 }
 .h2PickUp {
@@ -31,9 +32,8 @@
     }
 }
 
-//
 .picUpCntFx01 {
-    @include marginPercent(1000 , 22.9063 , auto , 0 , auto );
+    @include marginPercent(1000 , 23.5 , auto , 0 , auto );
     @include paddingPercent(1000 , 0 , 0 , 122 , 0 );
     @include media($tab) {
         padding: 0% 0% 4.5vw 0%;
@@ -45,7 +45,7 @@
 }
 .picUpCnt01 {
     position: relative;
-    @include ontener_width(1000 , 541.5779);
+    width: 55.15%;
     @include media($sp) {
         width: 100%;
     }
@@ -68,8 +68,8 @@
     }
 }
 .secUpCntFx01 {
-    @include ontener_width(1000 , 441.0362);
-    @include marginPercent(1000 , 60 , 0 , 0 , 0 );
+    @include ontener_width(1000 , 445);
+    @include marginPercent(1000 , 86 , 0 , 0 , 0 );
     @include media($sp) {
         @include ontener_width(750 , 664.7015);
         @include marginPercent(750 , 27 , auto , 0 , auto );
@@ -83,23 +83,23 @@
 }
 .btmSecUpCntFx01{
     display: block;
-    @include marginPercent(441.0362 , 85 , 0 , 0 , 0 );
+    @include marginPercent(441.0362 , 71 , 0 , 0 , 0 );
+    width:99.5%;
     @include media($sp) {
-        @include marginPercent(664.701 , 55 , 0 , 0 , 0 );
+        margin: 7.27% auto 0 auto;
     }
 }
-//
 .picUpCntFx02 {
-    @include marginPercent(1000 , 40 , auto , 0 , auto );
+    @include marginPercent(1000 , 25 , auto , 0 , auto );
     @include paddingPercent(1000 , 0 , 0 , 62 , 0 );
     @include media($sp) {
-        @include marginPercent(750 , 77.5 , auto , 0 , auto );
+        margin: 9.33% auto 0 auto;
         @include paddingPercent(750 , 0 , 0 , 0 , 0 );
     }
 }
 .picUpCnt02 {
     position: relative;
-    @include ontener_width(1000 , 472.9513 );
+    @include ontener_width(1000 , 475 );
     @include media($sp) {
         width: 100%;
     }
@@ -126,14 +126,14 @@
     @include marginPercent(1000 , 60 , 0 , 0 , 0 );
     @include media($sp) {
         @include ontener_width(750 , 750);
-        @include marginPercent(750 , 27 , auto , 0 , auto );
+        margin: 4.6% auto 0 auto;
     }
 }
 .txtSecUpCntFx02 {
-    @include ontener_width(441.0362 , 433.1582);
-    @include marginPercent(441.0362 , 64 , 0 , 0 , 0 );
+    //@include ontener_width(441.0362 , 433.1582);
+    @include marginPercent(441.0362 , 3 , 0 , 0 , 0 );
     @include media($sp) {
-        @include ontener_width(750 , 688.9602);
+        width: 92%;
         margin: 0;
     }
 }

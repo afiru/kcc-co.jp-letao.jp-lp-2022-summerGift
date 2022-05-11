@@ -1,11 +1,11 @@
 .summerGift{
-    @include marginPercent(1920 , 30 , auto , 0 , auto);
+    @include marginPercent(1920 , 114 , auto , 0 , auto);
     @include paddingPercent(1920 , 40 , 0 , 20 , 0);
     position: relative;
     height: 195px;
     @include media($sp){
-        @include marginPercent(750 , 80 , auto , 0 , auto);
-        @include paddingPercent(750 , 45 , 0 , 30 , 0);
+        margin: 17% auto 0 auto;
+            padding: 0% 0% 4% 0%;
         height: 30.820506666666663vw;
     }
 }
@@ -15,13 +15,13 @@
     width: 100%;
     position: absolute;
     z-index: -1;
-    top: 75%;
+    top: 80%;
     left: 0;
     right: 0;
     margin: 0 auto;
     @include media($sp){
         height: 3.4122399999999997vw;
-        top:100%;
+        top:75%;
     }
 }
 .summerGiftWap{
@@ -29,27 +29,32 @@
 }
 .summerGiftFx{
      height: 95px;
+     align-items: center;
+    width: 85%;
+    margin: 0 auto;
 }
 .txtSummerGift{
-    @include ontener_width(1000 , 620.4033);
+    width: 73.04%;
     @include media($sp){
-        @include ontener_width(750 , 322.8018);
-        @include marginPercent(750 , 0 , auto , 0 , 55);
+        width: 51.04%;
+        margin: 0 0 0 1.8%;
     }
 }
 .picSummerGift{
-    @include ontener_width(1000 , 257.884);
+    width: 27.5%;
     position: absolute;
-    top:-35%;
-    right: 5%;
+    top: -47%;
+    right: 2%;
     @include media($sp){
-        @include ontener_width(750 , 280.5048 );
+        width: 40.4%;
+        top: -19%;
+        right: 5%;
     }
 }
 .summerGiftlxc{
-    @include marginPercent(1920 , 30 , auto , 0 , auto);
+    @include marginPercent(1920 , 33 , auto , 0 , auto);
     @include media($sp){
-        @include marginPercent(750 , 85 , auto , 0 , auto);
+        margin: 6.33% auto 0 auto;
     }
 }
 .summerGiftCntFx {
@@ -58,7 +63,7 @@
     }
 }
 .picSummerGiftCntFx01Box{
-    @include ontener_width(1000 , 500); 
+    width: 53%;
     position: relative;
     @include media($tab){
          @include ontener_width(1000 , 515); 
@@ -87,34 +92,37 @@
 }
 .picSummerGiftCntFx01{
     position: absolute;
-    bottom: 0;
-    left:0;
-    @include ontener_width(500 , 193.4022);
+    bottom: 0.5%;
+    left: 1%;
+    width: 36.68%;
 }
 .secSummerGiftCntFx01{
-    @include marginPercent(442 , 70 , 0 , 0 , 0);
+    @include marginPercent(442 , 100 , 0 , 0 , 0);
     @include ontener_width(1000 , 442);
     @include media($tab){
         margin: auto 0 0 0;
     }
     @include media($sp){
-        @include ontener_width(750 , 669);
-        @include marginPercent(750 , 25 , auto , 0 , auto);
+        width: 90.5%;
+        margin: 4.33% auto 0 auto;
     }
 }
 .txtSecSummerGiftCntFx01{
-    
+    width: 86%;
+    @include media($sp){
+        width: 87%;
+    }
 }
 .btmSummerGiftCntFx01{
-    @include marginPercent(442 , 15 , 0 , 0 , 0);
+    @include marginPercent(442 , 11 , 0 , 0 , 0);
     display: block;
     @include media($sp){
-        @include marginPercent(750 , 20 , auto , 0 , auto);
+        margin: 1% auto 0 auto;
     }
 }
 .summerGiftCntFx02{
-    @include marginPercent(1000 , 50 , auto , 0 , auto);
-    @include paddingPercent(1000 , 24 , 0 , 0 , 0);
+    @include marginPercent(1000 , 53 , auto , 0 , auto);
+    @include paddingPercent(1000 , 30 , 0 , 0 , 0);
     border-top:1px solid #4f2329;
     @include media($sp){
         @include marginPercent(750 , 80 , auto , 0 , auto);
@@ -123,8 +131,14 @@
         flex-flow: row wrap;
     }
 }
+.txtSecSummerGiftCntFx02{
+    width: 83%;
+    @include media($sp){
+        width: 84%;
+    }
+}
 .picSummerGiftCntFx02Box{
-    @include ontener_width(1000 , 493); 
+    @include ontener_width(1000 , 500); 
     position: relative;
      @include media($sp){
         width: 100%;
@@ -148,30 +162,30 @@
     }
 }
 .secSummerGiftCntFx02{
-    @include marginPercent(1000 , 54 , 0 , 0 , 0);
+    @include marginPercent(1000 , 45 , 0 , 0 , 0);
     @include ontener_width(1000 , 440);
     @include media($tab){
         margin: auto 0 0 0;
     }
     @include media($sp){
-        @include ontener_width(750 , 669);
-        @include marginPercent(750 , 25 , auto , 0 , auto);
+        width: 90.5%;
+        margin: 3% auto 0 auto;
     }
 }
 .btmSummerGiftCntFx02{
-    @include marginPercent(442 , 15 , 0 , 0 , 0);
+    @include marginPercent(442 , 24 , 0 , 0 , 0);
     display: block;
     @include media($sp){
-        @include marginPercent(750 , 20 , auto , 0 , auto);
+        margin: 3.66% auto 0 auto;
     }
 }
 .otherProducts{
-    @include marginPercent(1000 , 35 , auto , 0 , auto);
+    @include marginPercent(1000 , 47 , auto , 0 , auto);
     @include media($tab){
         margin: 10% auto 0 auto;
     }
     @include media($sp){
-        @include marginPercent(750 , 80 , auto , 0 , auto);
-        @include ontener_width(750 , 495.6066);
+        margin: 8% auto 0 auto;
+        width: 66.5%;
     }
 }
