@@ -10,7 +10,7 @@
     background-size: auto 1872px;
 }
 .exlusiveToShopWap {
-    @include marginPercent(1920 , 65 , auto , 0 , auto );
+    @include marginPercent(1920 , 68 , auto , 0 , auto );
     @include media($sp) {
         @include marginPercent(750  , 0 , auto , 0 , auto );
     }
@@ -26,14 +26,14 @@
     }
 }
 .exlusiveToShopFx {
-    @include marginPercent(1000 , 55 , 0 , 0 , 0 );
+    @include marginPercent(1000 , 50 , 0 , 0 , 0 );
     @include paddingPercent(1000 , 0 , 0 , 32 , 0 );
     @include media($tab) {
         padding: 0% 0% 4.5vw 0%;
     }
     @include media($sp) {
         padding: 0;
-        @include marginPercent(750 , 82 , 0 , 0 , 0 );
+        margin: 9.93% 0% 0% 0%;
     }
 }
 .picExlusiveToShopTop {
@@ -49,7 +49,7 @@
         right: 0;top: 0;
         background: url(../img/picExlusiveToShopTopPc.webp) no-repeat top right;
         background-size: auto 100%;
-        height: 475px;
+        height: 489px;
         width: 300%;
         @include media($tab){
             height: 46.739583vw;
@@ -63,13 +63,17 @@
     @include marginPercent(1000 , 12 , 0 , 0 , 0 );
     @include ontener_width(1000 , 372 );
     @include media($sp) {
-        @include ontener_width(750 , 670.0002 );
+        width: 90%;
         @include marginPercent(750 , 71 , auto , 0 , auto );
     }
 }
 .picExlusiveToShopFx {
-    @include marginPercent(1000 , 40 , 0 , 0 , 0 );
+    @include marginPercent(1000 , 55 , 0 , 0 , 0 );
     @include media($sp) {
         @include marginPercent(750 , 35 , 0 , 0 , 0 );
+        overflow: hidden;
+         img{
+            width: 100.5%;
+        }
     }
 }

@@ -1,5 +1,5 @@
 .statSweets {
-    @include paddingPercent(1920 , 95 , 0 , 95 , 0 );
+    @include paddingPercent(1920 , 99 , 0 , 95 , 0 );
     @include media($sp) {
         @include paddingPercent(750 , 91, 0 , 85 , 0 );
     }
@@ -16,5 +16,10 @@
     margin: auto;
     @include media($sp) {
         @include ontener_width(750 , 549.7617);
+    }
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
     }
 }

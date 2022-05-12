@@ -1,5 +1,5 @@
 .header {
-    @include paddingPercent(1920 ,20, 0 , 15 , 0 );
+    @include paddingPercent(1920 ,20, 0 , 11 , 0 );
     background: #FFF;
     @include media($sp) {
         height: 21.203546666666668vw;
@@ -10,7 +10,7 @@
     }
 }
 .logoHeader {
-    @include ontener_width(1000 , 122.7568 );
+    width: 12.5%;
     margin: auto;
     @include media($sp) {
         @include ontener_width(750 , 122.7568);

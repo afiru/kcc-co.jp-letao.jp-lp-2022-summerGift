@@ -5,12 +5,15 @@
     justify-content: center;
     align-items: center;
     @include media($sp){
-        height: 13.333333333333334vw;
+        height: 6.666666666666667vw;
     }
 }
 .address{
     width: 110.6943px;
     margin: 0 auto;
+    @include media($sp){
+        width: 14.75924vw;
+    }
     img{
         display: block;
         width: 100%;
