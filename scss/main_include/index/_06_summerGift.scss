@@ -94,7 +94,10 @@
     position: absolute;
     bottom: 0.5%;
     left: 1%;
-    width: 36.68%;
+    width: 46.68%;
+    @include media($tab) {
+        width: 36.68%;
+    }
 }
 .secSummerGiftCntFx01{
     @include marginPercent(442 , 100 , 0 , 0 , 0);
