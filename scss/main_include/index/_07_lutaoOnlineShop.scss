@@ -17,6 +17,20 @@
         @include paddingPercent(750 , 35 , 0 , 35 , 0);
     }
 }
+.btmBtmAlertWap {
+    @include ontener_width(1000 , 441.036 );
+    @include marginPercent(1000 , 0 , auto , 30 , auto);
+    @include media($sp) {
+        @include ontener_width(750 , 670.0002);
+    }
+}
+.btmBtmAlertWap a {
+    display: block;
+    transition-duration: 0.5s;
+    &:hover {
+        opacity: 0.6;
+    }
+}
 .txtBtmAlert{
     width: 65.3%;
     margin: 0 0 0 0.5%;

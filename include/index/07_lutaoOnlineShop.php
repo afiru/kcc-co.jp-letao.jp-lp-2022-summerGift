@@ -14,6 +14,12 @@
 </div>
 <div class="btmAlert">
     <div class="wapper btmAlertWap">
+        <div class="btmBtmAlertWap">
+            <a class="btmBtmAlert" href="https://www.letao.jp/" target="_blank">
+                <img loading="lazy" src="img/btmLutaoFooter.svg" alt="期間限定商品盛りだくさん、ルタオ公式オンラインショップ" width="441.036" height="88.5278" />
+            </a>
+        </div>
+        
         <figure class="txtBtmAlert">
             <picture>
                 <source media="(min-width: 768px)" srcset="img/txtBtmAlertPc.svg"><!--PC画像-->

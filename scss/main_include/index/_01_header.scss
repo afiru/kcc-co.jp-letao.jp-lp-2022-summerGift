@@ -10,6 +10,7 @@
     }
 }
 .logoHeader {
+    display: block;
     width: 12.5%;
     margin: auto;
     @include media($sp) {
