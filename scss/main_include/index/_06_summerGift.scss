@@ -192,3 +192,19 @@
         width: 66.5%;
     }
 }
+
+
+.otherProductsFx {
+    img {
+        display: block;
+    }
+    
+}
+.liOtherProductsFx {
+    @include media($sp) {
+        width: 100%;
+        &:nth-child(2) {
+            margin: 8% auto 8% auto;
+        }
+    }
+}

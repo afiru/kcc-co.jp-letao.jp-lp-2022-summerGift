@@ -38,7 +38,7 @@
                         <img loading="lazy" src="img/txtSecSummerGiftCntFx01Pc.svg" alt="" width="257.884" height="197.797" />
                     </picture>
                 </figure>
-                <a class="btmSummerGiftCntFx01" target="_blank" href="">
+                <a class="btmSummerGiftCntFx01" target="_blank" href="https://shop.letao.jp/item/F735.html">
                     <img loading="lazy" src="img/btmSummerGiftCntFx01.svg" alt="ONLINE SHOP" width="257.884" height="197.797" />
                 </a>
             </section>
@@ -58,18 +58,30 @@
                         <img loading="lazy" src="img/txtSecSummerGiftCntFx02Pc.svg" alt="" width="257.884" height="197.797" />
                     </picture>
                 </figure>
-                <a class="btmSummerGiftCntFx02" target="_blank" href="">
+                <div class="btmSummerGiftCntFx02" target="_blank" href="">
                     <img loading="lazy" src="img/btmSummerGiftCntFx02.svg" alt="ONLINE SHOP" width="257.884" height="197.797" />
-                </a>
+                </div>
             </section>
         </div>
         
-        <figure class="otherProducts">
-            <picture>
-                <source media="(min-width: 768px)" srcset="img/otherProductsPc.webp"><!--PC画像-->
-                <source media="(max-width: 768px)" srcset="img/otherProductsSp.webp"><!--SP画像-->
-                <img loading="lazy" src="img/otherProductsPc.webp" alt="" width="257.884" height="197.797" />
-            </picture>
-        </figure>
+        <div class="otherProducts">
+            <ul class="display_flex_stretch display_row otherProductsFx">
+                <li class="liOtherProductsFx">
+                    <a href="https://shop.letao.jp/category/13/G068.html" target="_balnk">
+                        <img loading="lazy" src="img/otherS.png" alt="" width="308" height="205" />
+                    </a>
+                </li>
+                <li class="liOtherProductsFx">
+                    <a href="https://shop.letao.jp/category/23/G069.html" target="_balnk">
+                        <img loading="lazy" src="img/otherM.png" alt="" width="308" height="205" />
+                    </a>
+                </li>
+                <li class="liOtherProductsFx">
+                    <a href="https://shop.letao.jp/category/23/G070.html" target="_balnk">
+                        <img loading="lazy" src="img/otherL.png" alt="" width="308" height="205" />
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>

@@ -3,7 +3,7 @@
     Pc:../img/bglutaoOnlineShopPc.webp
 -->
     <div class="wapper lutaoOnlineShopWap">
-        <a class="btmLutaoOnlineShop" href="" target="_blnak">
+        <a class="btmLutaoOnlineShop" href="https://shop.letao.jp/category/14/" target="_blnak">
             <picture>
                 <source media="(min-width: 768px)" srcset="img/btmLutaoOnlineShopPc.webp"><!--PC画像-->
                 <source media="(max-width: 768px)" srcset="img/btmLutaoOnlineShopSp.webp"><!--SP画像-->

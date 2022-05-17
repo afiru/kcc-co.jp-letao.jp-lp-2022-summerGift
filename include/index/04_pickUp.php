@@ -29,7 +29,7 @@
                         <img loading="lazy" src="img/txtSecUpCntFx01Pc.svg" alt="Melon Double メロンドゥーブル ～北海道赤肉メロン～1,836円(税込) メロンのさわやかな甘みと香りに、チーズのコクと、やさしいミルク感。北海道の短い夏に、旬をむかえる赤肉メロンのぜいたくな味わいを表現したルタオの夏の風物詩。" width="433.1582" height="211.2113" />
                     </picture>
                 </figure>                
-                <a class="btmSecUpCntFx btmSecUpCntFx01" href="" target="_blank">
+                <a class="btmSecUpCntFx btmSecUpCntFx01" href="https://shop.letao.jp/item/F695.html" target="_blank">
                     <img loading="lazy" src="img/btmSecUpCntFx01.svg" alt="ONLINE SHOP" width="441.0362" height="88.5278" />
                 </a>
             </section>
@@ -51,7 +51,7 @@
                         <img loading="lazy" src="img/txtSecUpCntFx02Pc.svg" alt="オンラインショップ限定 Pumple Peche Fromage パンプルペッシュ フロマージュ 2,376円(税込) すっきりとしたグレープフルーツに桃の甘みをのぞかせて。キラキラと輝くルビーグレープフルーツのジュレ、異なるチーズを合わせたルビーグレープフルーツムースとピーチムース。みずみずしい2つの果実が織りなす爽やかな夏の癒し。" width="433.1582" height="211.2113" />
                     </picture>
                 </figure>                
-                <a class="btmSecUpCntFx btmSecUpCntFx02" href="" target="_blank">
+                <a class="btmSecUpCntFx btmSecUpCntFx02" href="https://shop.letao.jp/item/R739.html" target="_blank">
                     <img loading="lazy" src="img/btmSecUpCntFx02.svg" alt="ONLINE SHOP" width="441.0362" height="88.5278" />
                 </a>
             </section>
