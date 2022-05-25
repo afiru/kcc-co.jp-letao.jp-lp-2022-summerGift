@@ -15,5 +15,7 @@
         <figure class="picScroll">
             <img loading="lazy" src="img/picScroll.svg" alt="スクロールしてください。" width="57.2979" height="79.8325" />
         </figure>
+        
+
     </div>
 </div>

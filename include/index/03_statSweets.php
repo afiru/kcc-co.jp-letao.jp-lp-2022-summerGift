@@ -10,5 +10,9 @@
                 <img loading="lazy" src="img/txtStatSweetsPc.svg" alt="癒しスイーツ、はじめました。厳しい暑さで疲れたカラダに、甘いものはいかがですか？見ためでひんやり、食べてほっこり。旬でこころも癒したい、夏限定のルタオです。" width="693.54" height="285.8467" />
             </picture>
         </figure>
+        
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/09uXZusg4fQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
